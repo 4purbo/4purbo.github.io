@@ -1,0 +1,34 @@
+.contact-sec {
+    height: 65vh;
+    background: url(asset/contact.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+.contact-sec .header {
+    margin: 0;
+}
+
+.contact-sec .detailed-contact {
+    margin: 50px 0;
+}
+
+.social-media-sec {
+
+    transform: translateX(-13px);
+}
+
+.social-media-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.contact-name {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

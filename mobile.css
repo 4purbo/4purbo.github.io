@@ -1,0 +1,164 @@
+@media (max-width: 1416px) {
+    .name {
+        font-size: 2.5em;
+    }
+
+    .contact-sec {
+        padding-left: 200px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .name {
+        font-size: 2em;
+    }
+
+    .aboutme .img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .aboutme .holder p {
+        font-size: 18px;
+    }
+
+    .contact-sec {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .aboutme .img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .aboutme .holder p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .aboutme .img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .aboutme .holder p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 950px) {
+    .name {
+        font-size: 1.5em;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .aboutme .img {
+        height: 250px;
+        width: 300px;
+    }
+
+    .skills-set {
+        flex-direction: column;
+    }
+
+    .middle-skill {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 711px) {
+    .aboutme {
+        padding: 0 50px;
+    }
+
+    .name {
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 652px) {
+    .name {
+        letter-spacing: 0;
+    }
+
+    .skills-set {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 612px) {
+    .name {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .top-skills {
+        font-size: 15px;
+    }
+
+    .skills-sec .quote {
+        font-size: 15px;
+    }
+
+    .social-media-icon {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    .name {
+        font-size: 18px;
+    }
+
+    .contact-sec {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 470px) {
+    .name {
+        font-size: 15px;
+    }
+
+    .top-skills {
+        font-size: 12px;
+    }
+
+    .skills-set {
+        margin: 0 25px;
+    }
+
+    .skills {
+        margin: 0 25px;
+    }
+
+    .middle-skill {
+        margin: 50px 25px;
+    }
+
+    .skills .logo {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .name {
+        letter-spacing: -1px;
+    }
+
+    .skills-sec .quote {
+        font-size: 12px;
+    }
+
+    .skills .det {
+        font-size: 12px;
+    }
+}

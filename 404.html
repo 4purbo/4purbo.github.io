@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .error-page {
+            margin: 0;
+            margin-top: 50vh;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+
+        .error-page h2,
+        .error-page p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .error-page h2 {
+            font-size: 30px;
+        }
+
+        .error-page p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 1024px) {
+            .error-page h2 {
+                font-size: 25px;
+            }
+
+            .error-page p {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 426px) {
+            .error-page h2 {
+                font-size: 20px;
+            }
+
+            .error-page p {
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width: 280px) {
+            .error-page h2 {
+                font-size: 15px;
+            }
+        }
+    </style>
+    <title>Error 404</title>
+</head>
+
+<body>
+    <div class="error-page">
+
+        <h2 class="text">ERROR 404 | Not Found</h2>
+        <p id="error-det" class="text">Details: URL "/" was not found.</p>
+
+    </div>
+
+    <script>
+        let error_det = document.querySelector("#error-det");
+        error_det.innerHTML = "Details: URL \"" + window.location.pathname + "\" was not found.";
+    </script>
+</body>
+
+</html>

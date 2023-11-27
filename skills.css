@@ -1,0 +1,53 @@
+.skills-sec {
+    min-height: 0;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.skills-sec .header {
+    margin: 0;
+    text-align: center;
+}
+
+.skills-sec .quote {
+    font-size: 18px;
+    text-align: center;
+
+    animation: fade-in 500ms ease-in-out;
+}
+
+.skills-set {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    margin-top: 150px !important;
+
+    animation: fade-in 500ms ease-in-out;
+}
+
+.skills {
+    text-align: center;
+    margin: 0 50px;
+    max-width: 350px;
+}
+
+.skills .logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.skills .name {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.skills .det {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.middle-skill {
+    padding: 0 50px;
+    margin: 0 -50px;
+}
